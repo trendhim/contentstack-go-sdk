@@ -3312,7 +3312,7 @@
           {
             "name": "version",
             "in": "query",
-            "required": true,
+            "required": false,
             "style": "form",
             "schema": {
               "type": "number"
@@ -3322,7 +3322,7 @@
           {
             "name": "locale",
             "in": "query",
-            "required": true,
+            "required": false,
             "style": "form",
             "schema": {
               "type": "string",
@@ -3333,7 +3333,7 @@
           {
             "name": "include_workflow",
             "in": "query",
-            "required": true,
+            "required": false,
             "style": "form",
             "schema": {
               "type": "string",
@@ -3344,7 +3344,7 @@
           {
             "name": "include_publish_details",
             "in": "query",
-            "required": true,
+            "required": false,
             "style": "form",
             "schema": {
               "type": "string",
